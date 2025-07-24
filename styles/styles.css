@@ -6,8 +6,7 @@
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings:"wdth" 100;
 }
 
 
@@ -34,7 +33,7 @@
   color:rgba(0, 0, 0, 1) ;
 }
 .dark-white{
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.712);
 }
 .text-center{
   text-align: center;
@@ -135,13 +134,17 @@ nav li a{
   margin-bottom: 50px;
 }
 /* Plant lover section */
+.plant-store-max{
+  max-width: 1140px;
+  margin: 120px auto;
+}
 .plant-lover{
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: space-between;
-  max-width: 1140px;
-  margin: 130px auto;
-  gap: 60px;
+  /* max-width: 1140px; */
+  width: 100%;
+  gap: 40px;
 }
 .store-pic{
   width: 540px;
@@ -153,6 +156,7 @@ nav li a{
   font-size: 50px;
 }
 .store-description{
+  /* margin-bottom: -350px; */
   font-weight: normal;
   font-size: 20px;
 }
@@ -163,10 +167,135 @@ nav li a{
 .store-description li{
   margin-bottom: 20px;
 }
+#badge-pic{
+  width: 270px;
+  height: auto;
+  filter: drop-shadow(-4px 10px 4px rgba(0, 0, 0, 0.493));
+  
+}
+#badge-position{
+  position: absolute;
+  top: -100px;
+  right: -86px;
+}
 
+.planet-lover-images{
+  position: relative;
+}
 
+/* deal styles */
+.deal-section{
+  text-align: center;
+}
+.deals-3flower{
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+}
+.deal-bblom{
+  position: relative;
+  border-radius: 13px;
+  overflow: hidden;
+}
+.deal-bblom-title{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: wheat;
+  font-size: 20px;
+  font-weight: bold;
+}
+.dea-gap{
+  margin-top: 28px;
+}
+.bloom-ana-row{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
+.deal-bblom-title a{
+  color: white;
+}
+.discripon-padd{
+ 
+}
+.Subscribe-section{
+  text-align: center;
+  /* justify-content: center; */
+  margin: 0px;
+  background-image: url(../assets/news-letter-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
+.join-title{
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+}
+.news-letter{
+  margin: 100px 0px;
+  align-items:center;
+  padding: 200px 0px;
+}
+form{
+  display: block;
+  
+}
+form input[type="email"]{
+  width: 644px;
+  height: 40px;
+  font-weight: normal;
+  font-size: 14px;
+  border: none;
+  
+}
+
+form input[placeholder="Write email"]{
+  padding-left: 20px;
+}
+form input[type="submit"]{
+  color: white;
+  background-color: #E95A08;
+  border: none;
+  padding: 13.3px 60px;
+  margin-left: -4px;
+}
+footer{
+  margin-bottom: 70px;
+  text-align: center;
+  
+}
+.trying-50{
+  width: 25%;
+}
+.trying-50 ul li{
+  list-style: none;
+  margin-bottom: 25px;
+}
+.footer-container{
+  display: flex;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.alien-icon img{
+  text-align: center;
+  width: 30px;
+  margin-left: 25px;
+}
+
+/* .deal-pic{
+  opacity: 0.6;
+} */
 /* Iphone 14 Pro Max */
 
 @media (max-width: 575.98px) {
@@ -201,7 +330,7 @@ nav li a{
     font-weight: bold;
     font-size: 34px;
   }
-  ..banner-description{
+  .banner-description{
     font-weight: normal;
     font-size: 14px;
   }
@@ -252,16 +381,76 @@ nav li a{
   font-weight: bold;
   font-size: 30px;
   margin-bottom: 27px;
-`}
+}
 .Our-plant-discription{
   /* align-items: center; */
   font-weight: normal;
-  font-size: 22px;
+  font-size: 18px;
   margin: 0px 17px 50px 17px;
-`}
-  /* .Our-plant{
-  /* text-align: center; */
-  margin: 50px auto;
-  max-width: auto;
-} */
+ }
+  #badge-position{
+    display: none;
+  }
+  .plant-lover{
+    flex-direction: column;
+  }
+  
+  .plant-lover-review{
+    margin: 0px 20px;
+    padding: 0px 15px;
+  }
+  .store-title{
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .store-description{
+    margin-bottom: 0px;
+    font-weight: normal;
+    font-size: 14px;
+  }
+  .plant-store-max{
+    margin-top: 0px;
+  }
+  .planet-lover-images{
+  position: relative;
+  text-align: center;
+  }
+  .store-pic{
+    width: 398px;
+    height: auto;
+  }
+  .deals-3flower{
+    flex-direction: column;
+  }
+  .deal-section{
+    margin: 0px 50px;
+  }
+  form input[type="email"]{
+  width: 150px;
+  
+  }
+  form input[type="submit"]{
+  padding: 13.3px 30px;
+  
+  }
+  .join-title{
+  font-size: 30px;
+  }
+  .news-letter{
+  margin: 100px 0px;
+  padding: 120px 0px;
+  }
+  .footer-container{
+    flex-direction: column;
+    text-align: justify;
+    margin: 0px 30px;
+    margin-right: 90px;
+  }
+  .trying-50{
+    width: 100%;
+  }
+}
+.deal-bblom img {
+    width: 100%;
+    height: 100%;
 }
