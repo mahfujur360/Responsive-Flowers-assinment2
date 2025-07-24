@@ -90,8 +90,26 @@ nav li a{
 /* Section Our Plants */
 .Our-plant{
   text-align: center;
+  margin: 50px auto;
+  max-width: 1140px;
 }
-
+.Our-plant-titls{
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.Our-plant-discription{
+  align-items: center;
+  font-weight: normal;
+  font-size: 22px;
+  margin: 0px 150px 50px 150px;
+}
+.cards{
+  
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
 .card-pic{
   width: 270px;
   height: 323px;
@@ -115,7 +133,7 @@ nav li a{
   padding: 15px 80px;
   font-weight: 600;
   font-size: 16px;
-  
+  margin-bottom: 50px;
 }
 
 
