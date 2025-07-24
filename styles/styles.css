@@ -36,7 +36,9 @@
 .dark-white{
   color: rgba(0, 0, 0, 0.5);
 }
-
+.text-center{
+  text-align: center;
+}
 /* nav bar */
 
 nav{
@@ -84,6 +86,41 @@ nav li a{
   width:570px ;
   height: 355px;
 }
+
+/* Section Our Plants */
+.Our-plant{
+  text-align: center;
+}
+
+.card-pic{
+  width: 270px;
+  height: 323px;
+}
+.card-titls{
+  font-weight: normal;
+  font-size: 22px;
+  margin-bottom: 7px;
+  margin-top: 20px;
+}
+.card-price{
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: 12px;
+  margin-bottom: 18px;
+}
+.btc-cart{
+  background-color: #E95A08;
+  color: white;
+  border: none;
+  padding: 15px 80px;
+  font-weight: 600;
+  font-size: 16px;
+  
+}
+
+
+
+/* Iphone 14 Pro Max */
 
 @media (max-width: 575.98px) {
   
