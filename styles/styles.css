@@ -91,7 +91,7 @@ nav li a{
     display: none;
   }
   nav{
-    margin: 13px 16px 28px 16px;
+    margin: 18px 26px 28px 26px;
   }
   nav img{
     width: 63px;
@@ -105,11 +105,24 @@ nav li a{
   }
   .banner-pic{
     width: 100%;
-    height: 245px;
+    height: 100%;
     margin: 0px;
     padding: 0px;
   }
   .banner-collumn{
+    padding: 0px;
+    margin: 10px 28px;
+  }
+  .banner-titles{
+    font-weight: bold;
+    font-size: 34px;
+  }
+  ..banner-description{
+    font-weight: normal;
+    font-size: 14px;
+  }
+  body{
     margin: 0px;
   }
+
 }
