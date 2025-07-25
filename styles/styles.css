@@ -161,10 +161,7 @@ nav li a{
   font-weight: normal;
   font-size: 20px;
 }
-.plant-lover-review{
-  /* width: 50%; */
-  /* align-items: center; */
-}
+
 .store-description li{
   margin-bottom: 20px;
 }
@@ -185,6 +182,17 @@ nav li a{
 }
 
 /* deal styles */
+.discripon-padd{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.deal-discripton{
+  margin-top: 0px;
+  /* margin-bottom: 15px; */
+}
+.deal-titles{
+  margin-bottom: 15px;
+}
 .deal-section{
   text-align: center;
 }
@@ -226,9 +234,7 @@ nav li a{
 .deal-bblom-title a{
   color: white;
 }
-.discripon-padd{
- 
-}
+
 .Subscribe-section{
   text-align: center;
   margin: -8px;
