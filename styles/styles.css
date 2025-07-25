@@ -38,6 +38,7 @@
 .text-center{
   text-align: center;
 }
+
 /* nav bar */
 
 nav{
@@ -209,7 +210,7 @@ nav li a{
   align-items: center;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.4);
-  color: wheat;
+  color: white;
   font-size: 20px;
   font-weight: bold;
 }
@@ -230,12 +231,14 @@ nav li a{
 }
 .Subscribe-section{
   text-align: center;
-  /* justify-content: center; */
-  margin: 0px;
+  margin: -8px;
   background-image: url(../assets/news-letter-bg.png);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
+  
 }
+
 
 .join-title{
   font-weight: bold;
@@ -272,7 +275,7 @@ form input[type="submit"]{
 }
 footer{
   margin-bottom: 70px;
-  text-align: center;
+  /* text-align: center; */
   
 }
 .trying-50{
